@@ -48,4 +48,5 @@ window.onload = function() {
   console.log(cadena4);
   console.log(cadena5);
   console.log(cadena6);
+  console.log(cadena7);
 };

@@ -21,32 +21,13 @@ window.onload = function() {
   //   `;
 
   let cadena1;
-  let cadena2;
-  let cadena3;
-  let cadena4;
-  let cadena5;
-  let cadena6;
-  let cadena7;
 
   for (let i = 0; i < pronoun.length; i++) {
-    for (let i = 0; i < adj.length; i++) {
-      for (let i = 0; i < noun.length; i++) {
-        cadena1 = pronoun[0] + adj[0] + noun[0];
-        cadena2 = pronoun[0] + adj[0] + noun[1];
-        cadena3 = pronoun[0] + adj[1] + noun[0];
-        cadena4 = pronoun[1] + adj[0] + noun[0];
-        cadena5 = pronoun[1] + adj[0] + noun[1];
-        cadena6 = pronoun[1] + adj[1] + noun[0];
-        cadena7 = pronoun[1] + adj[1] + noun[1];
+    for (let x = 0; x < adj.length; x++) {
+      for (let y = 0; y < noun.length; y++) {
+        cadena1 = pronoun[i] + adj[x] + noun[y] + ".com";
+        console.log(cadena1);
       }
     }
   }
-
-  console.log(cadena1);
-  console.log(cadena2);
-  console.log(cadena3);
-  console.log(cadena4);
-  console.log(cadena5);
-  console.log(cadena6);
-  console.log(cadena7);
 };
